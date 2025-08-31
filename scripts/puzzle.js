@@ -77,7 +77,7 @@ for (let i = 0; i < nbCol; i++) {
 function update(dt) {
     canvas_part_3.width  = window.innerWidth-70;
     canvas_part_3.height = canvas_part_3.width*6/14;
-    canvasScale = canvas_part_3.width*0.9 /1400;
+    canvasScale = canvas_part_3.width*0.8 /1400;
     
     for (let j = 0 ; j < puzzle.length ; j++){
         if (selectedPiece==null){
