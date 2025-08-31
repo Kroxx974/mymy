@@ -13,7 +13,7 @@ canvas_part_3.height = canvas_part_3.width*6/14;
 let canvasScale = canvas_part_3.width /1400;
 
 const textImage = new Image(1400,600);
-textImage.src = "assets/text.jpg";
+textImage.src = "mymy/assets/text.jpg";
 
 let selectedPiece = null;
 let diff = {x:0,y:0};
