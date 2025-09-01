@@ -14,7 +14,10 @@ function submitPassword() {
     }
     else{
         errorMessage.style.display = 'block';
-        setTimeout(()=>{errorMessage.style.display = 'none'}, 800);
+        setTimeout(()=>{
+            errorMessage.style.display = 'none';
+            document.getElementById('password').value="";
+        }, 800);
     // alert("Ce n'est pas le bon mot de passe. Essaye encore, ne désespère pas. Au pire tu peux m'appeler pour un indice, au fond ça n'est qu'un jeu :) JMV")
     }
 }
