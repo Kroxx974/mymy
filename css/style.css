@@ -51,6 +51,16 @@ footer {
   header{margin-left : 0};
   footer{margin-left: 0};
 }
+#overlayCanvas {
+    position: fixed; /* fixé par rapport à la fenêtre */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; /* clics passent au travers */
+    z-index: 9999; /* au-dessus de tout */
+}
+
 
 
 
