@@ -42,7 +42,7 @@ resizeCanvas();
 
 // Exemple : cercle semi-transparent
 function draw() {
-    let RAYON = 200
+    let RAYON = 250
   // 1) remplir tout avec une couleur semi-transparente
   ctx.save();
   ctx.fillStyle = 'rgba(0,0,0,1)'; // overlay semi-transparent
@@ -77,3 +77,4 @@ function gameLoop(timestamp) {
     requestAnimationFrame(gameLoop);
 }
 requestAnimationFrame(gameLoop);
+
